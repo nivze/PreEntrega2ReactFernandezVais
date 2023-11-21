@@ -1,0 +1,21 @@
+.container_nav {
+    background-color: rgb(67, 1, 220);
+    box-shadow: 4px -2px 2px black;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    
+    & p {
+        color: aliceblue;
+        text-decoration: none;
+        font-size: 1rem;
+    }
+
+    & .noDecoration {
+        text-decoration: none;
+      }
+}

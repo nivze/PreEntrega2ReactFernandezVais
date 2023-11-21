@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.brand {
+    background-color: rgba(255, 255, 255, 0.863);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+
+.logo {
+    width: 450px;
+    height: 80px;
+    filter: drop-shadow(10px 10px 20px black);
+    animation: rubberBand; 
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+.tituloPrincipal {
+    background-color: rgba(0, 0, 0, 0.902);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.909);
+    width: 100%;
+    color: black;
+    height: 150px;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer span{
+    margin-top: 20px;
+}
